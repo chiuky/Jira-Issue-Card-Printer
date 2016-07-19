@@ -24,14 +24,14 @@ Bengt
 
 ### Installation
 #### Drag'n'Drop
-got to [Instalation Site](https://qoomon.github.io/Jira-Issue-Card-Printer/bookmarkInstalation.html)
+got to [Instalation Site](https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/bookmarkInstalation.html)
 
 *or*
 
 #### Manually
 Create Bookmark with folowing content.
 ```
-javascript:(function(){ var script = document.createElement("script"); script.src = "https://qoomon.github.io/Jira-Issue-Card-Printer/bookmarklet.js"; document.body.appendChild(script); document.body.removeChild(script);})();
+javascript:(function(){ var script = document.createElement("script"); script.src = "https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/bookmarklet.js"; document.body.appendChild(script); document.body.removeChild(script);})();
 ```
 
 ### Usage

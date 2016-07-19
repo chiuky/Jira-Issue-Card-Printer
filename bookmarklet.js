@@ -109,7 +109,7 @@
     addStringFunctions();
     loadSettings();
 
-    global.hostOrigin = "https://qoomon.github.io/Jira-Issue-Card-Printer/";
+    global.hostOrigin = "https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/";
     if (global.isDev) {
       console.log("DEVELOPMENT");
       global.hostOrigin = "https://rawgit.com/qoomon/Jira-Issue-Card-Printer/develop/";
@@ -1308,44 +1308,44 @@
        width: 3.0rem;
        border-radius: 50%;
        background-color: LIGHTSEAGREEN;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Objects.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Objects.png);
        background-repeat: no-repeat;
        background-position: center;
        background-size: 63%;
      }
      .issue-icon[type="loading"]{
        background-color: DEEPSKYBLUE;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/CloudLoading.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/CloudLoading.png);
      }
      .issue-icon[type="story"], .issue-icon[type="user story"] {
        background-color: GOLD;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Bulb.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Bulb.png);
      }
      .issue-icon[type="bug"].issue-icon[type="problem"], .issue-icon[type="correction"],  {
        background-color: CRIMSON;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Bug.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Bug.png);
      }
      .issue-icon[type="epic"] {
        background-color: ROYALBLUE;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Flash.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Flash.png);
      }
      .issue-icon[type="task"], .issue-icon[type="sub-task"], .issue-icon[type="technical task"]
      .issue-icon[type="aufgabe"], .issue-icon[type="unteraufgabe"], .issue-icon[type="technische aufgabe"]  {
        background-color: WHEAT;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Task.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Task.png);
      }
      .issue-icon[type="new feature"] {
        background-color: LIMEGREEN;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Plus.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Plus.png);
      }
      .issue-icon[type="improvement"],
      .issue-icon[type="verbesserung"] {
        background-color: CORNFLOWERBLUE;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Arrow.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Arrow.png);
      }
      .issue-icon[type="research"] {
        background-color: MEDIUMTURQUOISE;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/ErlenmeyerFlask.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/ErlenmeyerFlask.png);
      }
      .issue-estimate {
        position: absolute;
@@ -1379,7 +1379,7 @@
        height: 2.0rem;
        border-radius: 50%;
        background-color: LIGHTSKYBLUE;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Attachment.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/Attachment.png);
        background-repeat: no-repeat;
        background-position: center;
        background-size: 70%;
@@ -1457,7 +1457,7 @@
        height: 2.5rem;
        border-radius: 50%;
        background-color: ORCHID;
-       background-image: url(https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/AlarmClock.png);
+       background-image: url(https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/resources/icons/AlarmClock.png);
        background-repeat: no-repeat;
        background-position: center;
        background-size: 65%;
