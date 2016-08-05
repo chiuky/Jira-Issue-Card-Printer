@@ -104,7 +104,7 @@
     var promises = [];
 
     console.log("Init...")
-    //initGoogleAnalytics();
+    initGoogleAnalytics();
 
     addStringFunctions();
     loadSettings();
@@ -112,7 +112,7 @@
     global.hostOrigin = "https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/";
     if (global.isDev) {
       console.log("DEVELOPMENT");
-      global.hostOrigin = "https://github.com/chiuky/Jira-Issue-Card-Printer/blob/develop/";
+      global.hostOrigin = "https://rawgit.com/qoomon/Jira-Issue-Card-Printer/develop/";
     }
     global.resourceOrigin = global.hostOrigin + "resources/";
 
